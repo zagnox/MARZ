@@ -10,7 +10,7 @@
 import subprocess
 
 
-file_path = '/home/zagnox/Desktop/test.txt'
+file_path = '/etc/NetworkManager/conf.d/00-macrandomize.conf'
 file_content = """[device]
 wifi.scan-rand-mac-address=yes
 
